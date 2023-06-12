@@ -1,0 +1,11 @@
+<section class="border border-4 border-dark border-bottom-0 border-right-0 border-top-0 p-2 m-2">
+<p><%= params[:question] %></p>
+<p>-You<p>
+</section>
+
+<section class="border border-4 border-dark border-bottom-0 border-right-0 border-top-0 p-2 m-2 bg-warning">
+<p><%= @coach_answer %></p>
+<h6>-Your coach</h6>
+</section>
+
+<%= link_to 'Ask a new question', ask_path %>
